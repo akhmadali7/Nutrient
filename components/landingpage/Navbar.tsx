@@ -14,7 +14,13 @@ const Navbar = () => {
   return (
     <nav className='relative text-white bg-primary'>
       <div className='flex flex-row items-center justify-between py-3 bg-transparent responsive-x-padding'>
-        <Link href={'/'} className='text-xl font-bold'>Nutrient</Link>
+        <div className='flex flex-row items-center gap-x-5'>
+          <Link href={'/'} className='text-xl font-bold'>Nutrient</Link>
+          <div className='px-4 py-2 rounded-lg bg-rose-600'>
+            <p className=' text-[11px] font-extrabold text-white text-center'>Under  Construction</p>
+          </div>
+        </div>
+
         <ul className='flex-row hidden md:flex gap-x-2'>
           {Navlinks.map((link, index) => (
             <Link key={index} href={'/'} className='px-4 py-1 rounded-md hover:text-black hover:bg-slate-100'><li>{link.name}</li></Link>
