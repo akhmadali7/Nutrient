@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className='flex flex-row items-center justify-between py-3 bg-transparent responsive-x-padding'>
         <div className='flex flex-row items-center gap-x-5'>
           <Link href={'/'} className='text-xl font-bold'>Nutrient</Link>
-          <div className='px-4 py-2 rounded-lg bg-rose-500'>
+          <div className='px-4 py-2 rounded-lg bg-rose-600'>
             <p className=' text-[11px] font-extrabold text-white text-center'>Under  Construction</p>
           </div>
         </div>
