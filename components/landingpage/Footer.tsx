@@ -76,11 +76,11 @@ const Footer = () => {
         <div className='flex flex-row items-center gap-x-2'>
           <Link href={'/'} className='px-2 py-1'>Fraud Policy</Link>
           <Link href={'/'} className='px-2 py-1'>Privacy Policy</Link>
-          <Link href='https://github.com/akhmadali7/Next_landing_unilever' target='_blank' className='flex flex-row items-center px-2 py-1 rounded-md gap-x-1 bg-primary hover:invert active:bg-slate-100'>
+          <Link href='https://github.com/akhmadali7/Nutrient' target='_blank' className='flex flex-row items-center px-2 py-1 rounded-md gap-x-1 bg-primary hover:invert active:bg-slate-100'>
             <p>Github </p>
             <Image src='/icons/atr_white.svg' alt='stat' width={12} height={12} />
           </Link>
-          <Link href='https://www.behance.net/gallery/108428021/UNILEVER-Website-Concept-2020' target='_blank' className='flex flex-row items-center px-2 py-1 rounded-md bg-primary gap-x-1 hover:invert active:bg-slate-100'>
+          <Link href='https://id.pinterest.com/pin/750060512968272440/' target='_blank' className='flex flex-row items-center px-2 py-1 rounded-md bg-primary gap-x-1 hover:invert active:bg-slate-100'>
             <p>Design Reference</p>
             <Image src='/icons/atr_white.svg' alt='stat' width={12} height={12} />
           </Link>
