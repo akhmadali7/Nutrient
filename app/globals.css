@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+.responsive-x-padding {
+  @apply px-4 sm:px-6 md:px-10 lg:px-20 xl:px-32 2xl:px-96
+
+}
+
+/*
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +41,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
